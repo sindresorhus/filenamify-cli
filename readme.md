@@ -1,4 +1,4 @@
-# filenamify-cli [![Build Status](https://travis-ci.com/sindresorhus/filenamify-cli.svg?branch=master)](https://travis-ci.com/sindresorhus/filenamify-cli)
+# filenamify-cli
 
 > Convert a string to a [valid safe filename](https://github.com/sindresorhus/filenamify) on the command-line
 
