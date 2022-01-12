@@ -4,8 +4,8 @@
 
 ## Install
 
-```
-$ npm install --global filenamify-cli
+```sh
+npm install --global filenamify-cli
 ```
 
 ## Usage
@@ -22,6 +22,8 @@ $ filenamify --help
   Example
     $ filenamify 'foo/bar' --replacement=🦄
     foo🦄bar
+    $ filenamify 'https://sindresorhus.com/foo?bar=baz'
+    sindresorhus.com!foo!bar=baz
 ```
 
 ## Related

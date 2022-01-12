@@ -39,12 +39,14 @@
 		"dirname"
 	],
 	"dependencies": {
-		"filenamify": "^5.0.1",
-		"meow": "^10.1.1"
+		"filenamify": "^5.1.0",
+		"filenamify-url": "^3.0.0",
+		"is-url-superb": "^6.1.0",
+		"meow": "^10.1.2"
 	},
 	"devDependencies": {
-		"ava": "^3.15.0",
-		"execa": "^5.1.1",
-		"xo": "^0.44.0"
+		"ava": "^4.0.1",
+		"execa": "^6.0.0",
+		"xo": "^0.47.0"
 	}
 }

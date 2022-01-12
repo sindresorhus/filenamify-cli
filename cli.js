@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 import meow from 'meow';
+import isUrl from 'is-url-superb';
 import filenamify from 'filenamify';
+import filenamifyUrl from 'filenamify-url';
 
 const cli = meow(`
 	Usage
@@ -12,6 +14,8 @@ const cli = meow(`
 	Example
 	  $ filenamify 'foo/bar' --replacement=🦄
 	  foo🦄bar
+	  $ filenamify 'https://sindresorhus.com/foo?bar=baz'
+	  sindresorhus.com!foo!bar=baz
 
 `, {
 	importMeta: import.meta,
@@ -22,4 +26,7 @@ const cli = meow(`
 	},
 });
 
-console.log(filenamify(cli.input[0], cli.flags));
+const [text] = cli.input;
+const method = isUrl(text) ? filenamifyUrl : filenamify;
+
+console.log(method(text, cli.flags));
