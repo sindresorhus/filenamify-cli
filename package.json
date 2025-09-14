@@ -15,7 +15,7 @@
 		"filenamify": "./cli.js"
 	},
 	"engines": {
-		"node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+		"node": ">=20"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -39,14 +39,14 @@
 		"dirname"
 	],
 	"dependencies": {
-		"filenamify": "^5.1.0",
-		"filenamify-url": "^3.0.0",
+		"filenamify": "^7.0.0",
+		"filenamify-url": "^4.0.0",
 		"is-url-superb": "^6.1.0",
-		"meow": "^10.1.2"
+		"meow": "^13.2.0"
 	},
 	"devDependencies": {
-		"ava": "^4.0.1",
-		"execa": "^6.0.0",
-		"xo": "^0.47.0"
+		"ava": "^6.4.1",
+		"execa": "^9.6.0",
+		"xo": "^1.2.2"
 	}
 }

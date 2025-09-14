@@ -28,4 +28,4 @@ $ filenamify --help
 
 ## Related
 
-- [filenamify](https://github.com/sindresorhus/filenamify) - API for this module
+- [filenamify](https://github.com/sindresorhus/filenamify) - API for this package
