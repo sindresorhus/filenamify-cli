@@ -1,6 +1,6 @@
 {
 	"name": "filenamify-cli",
-	"version": "2.1.0",
+	"version": "3.0.0",
 	"description": "Convert a string to a valid safe filename on the command-line",
 	"license": "MIT",
 	"repository": "sindresorhus/filenamify-cli",
